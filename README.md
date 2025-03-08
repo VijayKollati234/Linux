@@ -25,7 +25,15 @@ ls -S :- using "S" flag, sorts and list all the contents in the specified direct
 <br>
 ls *.hmtl :- using "*" lists only the contents in the directory of a particular format
 <br>
-ls -lS :- using '>' flag, copies the result of ls command into text file
+ls -lS > file.txt :- using '>' flag, copies the result of ls command into text file
+<br>
+cd ~ :- this command also changes the directory to home directory
+<br>
+cd / :- changes the directory to root directrory
+<br>
+cd.. :- changes the directory to its parent directory 
+<br>
+cd 'xx yy' :- we specify the folder name in inverted commas because there is a space in the folder name
 
 
 
