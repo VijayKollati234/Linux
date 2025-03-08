@@ -49,6 +49,7 @@ $ cat > file1.txt  :- the '>' flag can be used to create a new file and enter co
 <br>
 $ cat >> file1.txt   :- the '>>' flag can be used to append text contents to an exixting file from the terminal
 <br>
+cat
 
 
 
