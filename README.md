@@ -34,6 +34,22 @@ cd / :- changes the directory to root directrory
 cd.. :- changes the directory to its parent directory 
 <br>
 cd 'xx yy' :- we specify the folder name in inverted commas because there is a space in the folder name
+<br>
+cat  :- this command is used to display the content of text file and concatenate serveral files into one 
+<br>
+cat -b :- this is used to add line number to non blank lines
+<br>
+cat -n : this is used to add line number to all lines 
+<br>
+cat -s :- this is used to squeeze blank lines into one line 
+<br>
+cat -E :- show $ at the end of line
+<br>
+$ cat > file1.txt  :- the '>' flag can be used to create a new file and enter contents from the terminal
+<br>
+$ cat >> file1.txt   :- the '>>' flag can be used to append text contents to an exixting file from the terminal
+<br>
+
 
 
 
