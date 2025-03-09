@@ -49,7 +49,17 @@ $ cat > file1.txt  :- the '>' flag can be used to create a new file and enter co
 <br>
 $ cat >> file1.txt   :- the '>>' flag can be used to append text contents to an exixting file from the terminal
 <br>
-cat
+grep :- we uase the grep command to search for a particular string/ word in a text
+<br>
+grep option file 1.txt :- returns result for matching string "option"
+<br>
+grep -i option file1.txt :- return the results for case insensitive strings
+<br>
+grep -n option file1.txt :- return the matching string along with their line number
+<br>
+grep -v option file1.txt :- return the result of lines not matching the  searching string
+<br>
+grep -c option file1.txt :- returns the number of line in which the results matched search string
 
 
 
