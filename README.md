@@ -60,8 +60,18 @@ grep -n option file1.txt :- return the matching string along with their line num
 grep -v option file1.txt :- return the result of lines not matching the  searching string
 <br>
 grep -c option file1.txt :- returns the number of line in which the results matched search string
-
-
+<br>
+Sort :- we use the sort command to sort the results of a search either alphabetically or numerically.
+<br>
+sort file1.txt :- sorts the contents of file1.txt and return them in alphabetical order 
+<br>
+sort file1.txt File2.txt :- sorts the contents of both File1.txt & File2.txt
+<br>
+sort  -r file1.txt :- "r" flag returns the results in reverse order
+<br>
+sort -f file.txt :- "f" flag does case insenitive sorting 
+<br>
+sort -n file.txt :- "n" flag returns the returns the results as per numberical order
 
 
 
